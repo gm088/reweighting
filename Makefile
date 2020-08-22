@@ -1,4 +1,4 @@
-#make with gsl
+#make with gsl and omp
 
 CFLAGS=-I/usr/include/gsl
 LDFLAGS=-lgsl -lgslcblas -fopenmp -lm
